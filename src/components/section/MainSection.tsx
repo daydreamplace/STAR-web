@@ -8,6 +8,8 @@ const MainSection = () => {
   );
 }
 
-const Container = styled.div``
+const Container = styled.div`
+  height: 100dvh;
+`
 
 export default MainSection;
