@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
 
   /* Body 기본 스타일 */
   body {
+    background: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.text};
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
   }
