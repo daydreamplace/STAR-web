@@ -17,7 +17,10 @@ const GlobalStyle = createGlobalStyle`
       font-weight: normal;
       font-style: normal;
     }
-    background: ${({ theme }) => theme.colors.background};
+    background: linear-gradient( to left,
+      ${({ theme }) => theme.colors.background},
+      ${({ theme }) => theme.colors.primary}
+    );
     color: ${({ theme }) => theme.colors.text};
     font-family: 'S-CoreDream-3Light';
     line-height: 1.6;
