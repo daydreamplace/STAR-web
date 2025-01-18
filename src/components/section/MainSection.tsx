@@ -1,4 +1,4 @@
-import mainLogo from "../../assets/main-logo.png";
+import mainLogo from "../../assets/star.png";
 import styled from "styled-components";
 
 const MainSection = () => {
@@ -22,14 +22,17 @@ const Container = styled.div`
   height: 100dvh;
 
   h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
-
     img {
-      height: 10rem;
-      margin-right: 0.5rem;
+      width: 50rem;
     }
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: 1.75rem 0;
+  }
+  h3 {
+    font-size: 1rem;
   }
 `;
 
