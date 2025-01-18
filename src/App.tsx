@@ -3,6 +3,7 @@ import Header from "./components/layout/Header";
 import Home from "./pages/Home";
 import Vision from "./pages/Vision";
 import Feature from "./pages/Feature";
+import Team from "./pages/Team";
 import Footer from "./components/layout/Footer";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/GlobalStyle";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/vision" element={<Vision />} />
           <Route path="/feature" element={<Feature />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />
       </Router>
