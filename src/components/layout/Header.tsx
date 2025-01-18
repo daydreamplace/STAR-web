@@ -16,6 +16,7 @@ const Header = () => {
       <nav>
         <NavLink to="/vision">V i s i o n</NavLink>
         <NavLink to="/feature">F e a t u r e</NavLink>
+        <NavLink to="/contact">C o n t a c t</NavLink>
       </nav>
     </Layout>
   );
@@ -46,6 +47,8 @@ const Layout = styled.div`
 
     a {
       color: ${({ theme }) => theme.colors.text};
+      font-weight: 700;
+
       &:hover {
         opacity: 0.7;
       }

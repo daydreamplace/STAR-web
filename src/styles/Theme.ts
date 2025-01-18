@@ -7,6 +7,7 @@ const Theme = {
     secondary: "#2d3a69",
     tertiary: "#7286b6",
     quaternary: "#2b2d33",
+    textHover: "#a9b8d1",
   },
   fontSizes: {
     small: "12px",
