@@ -9,7 +9,7 @@ const teamMembers = [
   { name: "Mun", github: "https://github.com/name-mun" },
 ];
 
-const Contact = () => {
+const Team = () => {
   const sortedMembers = teamMembers.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
@@ -28,7 +28,7 @@ const Contact = () => {
           비전과 열정이 있는 개발자 팀 <strong>Stargazers</strong>는 디지털 웰빙에 대한 깊은 관심과 기술적 전문성을
           바탕으로 시작되었습니다.
         </p>
-        <div className="contact-info">
+        <div className="team-info">
           <img src={star} alt="star" />
           <p>
             관련 문의는
@@ -95,7 +95,7 @@ const Container = styled.div`
     font-size: 1.25rem;
     line-height: 1.8;
 
-    .contact-info {
+    .team-info {
       display: flex;
       align-items: center;
 
@@ -106,4 +106,4 @@ const Container = styled.div`
   }
 `;
 
-export default Contact;
+export default Team;
