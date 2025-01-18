@@ -20,6 +20,7 @@ const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 100dvh;
+  z-index: 0;
 
   h1 {
     img {
