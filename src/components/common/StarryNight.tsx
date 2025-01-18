@@ -55,7 +55,7 @@ const BackSky = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
 `;
 

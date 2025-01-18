@@ -29,9 +29,6 @@ const GlobalStyle = createGlobalStyle`
   /* 링크 기본 스타일 */
   a {
     text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   /* 리스트 스타일 제거 */
