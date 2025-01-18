@@ -14,8 +14,8 @@ const Header = () => {
     <Layout>
       <img src={logo} alt="logo" onClick={goToHome} />
       <nav>
-        <NavLink to="/vision">Vision</NavLink>
-        <NavLink to="/feature">Feature</NavLink>
+        <NavLink to="/vision">V i s i o n</NavLink>
+        <NavLink to="/feature">F e a t u r e</NavLink>
       </nav>
     </Layout>
   );

@@ -20,11 +20,6 @@ interface GlobalMeteorProps {
 }
 
 const GlobalMeteorStyle = createGlobalStyle<GlobalMeteorProps>`
-  body {
-    position: relative;
-    background-color: black;
-    overflow: hidden;
-  }
   .star {
     position: absolute;
     top: -10%;
