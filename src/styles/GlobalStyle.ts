@@ -11,9 +11,15 @@ const GlobalStyle = createGlobalStyle`
 
   /* Body 기본 스타일 */
   body {
+    @font-face {
+      font-family: 'S-CoreDream-3Light';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
     background: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
-    font-family: 'Roboto', sans-serif;
+    font-family: 'S-CoreDream-3Light';
     line-height: 1.6;
   }
 
