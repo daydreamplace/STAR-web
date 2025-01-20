@@ -43,7 +43,7 @@ const Container = styled.div`
       padding-left: 1.5rem;
 
       &::before {
-        content: "★"; // 별 모양 아이콘
+        content: "★";
         position: absolute;
         left: 0;
         color: ${({ theme }) => theme.colors.tertiary};
