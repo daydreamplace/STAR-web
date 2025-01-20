@@ -1,13 +1,13 @@
-import mainLogo from "../../assets/star.png";
+import logo from "../../assets/new.png";
 import styled from "styled-components";
 
 const MainSection = () => {
   return (
     <Container>
       <h1>
-        <img src={mainLogo} alt="logo" />
+        <img src={logo} alt="logo" />
       </h1>
-      <h2>Screen Time Awareness & Regulation, STAR</h2>
+      <h2>Screen Time Awareness & Regulation</h2>
       <h3>별을 이루는 당신의 시간, STAR와 함께 빛나세요.</h3>
     </Container>
   );

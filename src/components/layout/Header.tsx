@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/star.png";
+import logo from "../../assets/new.png";
 import styled from "styled-components";
 
 const Header = () => {

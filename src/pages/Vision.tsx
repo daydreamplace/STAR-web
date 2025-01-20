@@ -1,3 +1,4 @@
+import star from "../assets/new.png";
 import styled from "styled-components";
 
 const Vision = () => {
@@ -5,7 +6,7 @@ const Vision = () => {
     <Container>
       <div className="vision-content">
         <p>
-          <strong>S T A R </strong>는 <strong>Screen Time Awareness & Regulation</strong>의 약자로, 사용자가 자신의
+          <img src={star} alt="logo" /> 는 <strong>Screen Time Awareness & Regulation</strong>의 약자로, 사용자가 자신의
           디지털 기기 사용 습관을 인지하고 조절할 수 있도록 돕는 앱입니다.
         </p>
         <p>
@@ -33,6 +34,11 @@ const Container = styled.div`
 
     p {
       margin-bottom: 1rem;
+    }
+
+    img {
+      height: 3rem;
+      vertical-align: middle;
     }
 
     strong {

@@ -1,4 +1,4 @@
-import star from "../assets/star.png";
+import star from "../assets/new.png";
 import styled from "styled-components";
 
 const teamMembers = [
@@ -100,7 +100,7 @@ const Container = styled.div`
       align-items: center;
 
       img {
-        height: 2.575rem;
+        height: 3rem;
       }
     }
   }
