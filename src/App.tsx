@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Vision from "./pages/Vision";
 import Feature from "./pages/Feature";
 import Team from "./pages/Team";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
 import Footer from "./components/layout/Footer";
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/GlobalStyle";
@@ -24,6 +26,8 @@ function App() {
           <Route path="/vision" element={<Vision />} />
           <Route path="/feature" element={<Feature />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
         <Footer />
       </Router>
