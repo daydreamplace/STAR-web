@@ -11,16 +11,24 @@ const GlobalStyle = createGlobalStyle`
 
   /* Body 기본 스타일 */
   body {
-    font-family: 'Roboto', sans-serif;
+    @font-face {
+      font-family: 'S-CoreDream-3Light';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+    background: linear-gradient( to left,
+      ${({ theme }) => theme.colors.background},
+      ${({ theme }) => theme.colors.primary}
+    );
+    color: ${({ theme }) => theme.colors.text};
+    font-family: 'S-CoreDream-3Light';
     line-height: 1.6;
   }
 
   /* 링크 기본 스타일 */
   a {
     text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
   }
 
   /* 리스트 스타일 제거 */
