@@ -1,4 +1,3 @@
-import star from "../assets/text_logo.png";
 import styled from "styled-components";
 
 const Vision = () => {
