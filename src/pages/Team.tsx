@@ -1,4 +1,3 @@
-import star from "../assets/new.png";
 import styled from "styled-components";
 
 const teamMembers = [
@@ -29,9 +28,8 @@ const Team = () => {
           바탕으로 시작되었습니다.
         </p>
         <div className="team-info">
-          <img src={star} alt="star" />
           <p>
-            관련 문의는
+            STAR 관련 문의는
             <strong>
               <a href="mailto:sambanghangyetang@gmail.com"> Stargazers</a>
             </strong>
