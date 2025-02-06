@@ -1,4 +1,4 @@
-import logo from "../../assets/home_logo.png";
+import logo from "../../assets/text_logo.png";
 import styled from "styled-components";
 
 const MainSection = () => {
