@@ -1,4 +1,4 @@
-import logo from "../../assets/new.png";
+import logo from "../../assets/home_logo.png";
 import styled from "styled-components";
 
 const MainSection = () => {
@@ -30,7 +30,7 @@ const Container = styled.div`
 
   h2 {
     font-size: 2rem;
-    margin: 1.75rem 0;
+    margin: 1.25rem 0;
   }
   h3 {
     font-size: 1rem;
