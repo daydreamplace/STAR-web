@@ -1,7 +1,7 @@
 // src/styles/theme.ts
 const Theme = {
   colors: {
-    background: "#0D1B2A",
+    background: "#0E0519",
     text: "#c5c8db",
     primary: "#1c2042",
     secondary: "#2d3a69",
