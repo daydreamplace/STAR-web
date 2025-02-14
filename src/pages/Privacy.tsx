@@ -132,23 +132,23 @@ const Container = styled.div`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: ${({ theme }) => theme.colors.white};
 
-    scrollbar-width: thin;
-    scrollbar-color: ${({ theme }) => theme.colors.purple} transparent;
-
     &::-webkit-scrollbar {
       width: 6px;
     }
 
     &::-webkit-scrollbar-track {
-      background: transparent;
+      background: ${({ theme }) => theme.colors.background};
     }
 
     &::-webkit-scrollbar-thumb {
-      background: linear-gradient(
+      background: ${({ theme }) => theme.colors.purple};
+
+      background-image: linear-gradient(
         180deg,
         ${({ theme }) => theme.colors.purple} 0%,
         ${({ theme }) => theme.colors.navy} 100%
       );
+
       border-radius: 10px;
     }
   }
