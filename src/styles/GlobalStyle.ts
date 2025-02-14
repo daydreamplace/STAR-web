@@ -17,6 +17,12 @@ const GlobalStyle = createGlobalStyle`
       font-weight: normal;
       font-style: normal;
     }
+    @font-face {
+      font-family: 'SEBANG_Gothic_Bold';
+      src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
     background: linear-gradient( to left,
       ${({ theme }) => theme.colors.background},
       ${({ theme }) => theme.colors.primary}
@@ -42,6 +48,10 @@ const GlobalStyle = createGlobalStyle`
     border: none;
     background: none;
     cursor: pointer;
+  }
+
+  .star-text{
+    font-family: 'SEBANG_Gothic_Bold';
   }
 `;
 

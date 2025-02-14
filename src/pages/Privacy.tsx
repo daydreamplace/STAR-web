@@ -8,7 +8,8 @@ const Privacy = () => {
 
         <section>
           <p>
-            이 개인정보 보호정책은 <strong>서비스 제공자</strong>가 운영하는 iOS 애플리케이션 <strong>S T A R</strong>
+            이 개인정보 보호정책은 <strong>서비스 제공자</strong>가 운영하는 iOS 애플리케이션{" "}
+            <strong className="star-text">S T A R</strong>
             (이하 "애플리케이션")에 적용됩니다. 이 서비스는 "있는 그대로" 제공됩니다.
           </p>
         </section>
@@ -97,7 +98,7 @@ const Privacy = () => {
         <section>
           <h2>🌟 변화</h2>
           <p>이 개인정보 보호정책은 어떤 이유로든 수시로 업데이트될 수 있습니다.</p>
-          <p>본 개인정보처리방침은 2025-02-14부터 적용됩니다.</p>
+          <p>본 개인정보처리방침은 2025.02.14부터 적용됩니다.</p>
         </section>
 
         <section className="footer">
@@ -114,7 +115,6 @@ const Privacy = () => {
   );
 };
 
-// ✅ 스타일드 컴포넌트는 Container만 사용
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -195,9 +195,12 @@ const Container = styled.div`
   }
 
   .footer {
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: center;
+    margin-top: 5rem;
+
+    p {
+      font-size: 0.675rem;
+      text-align: center;
+    }
   }
 `;
 
