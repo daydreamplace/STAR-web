@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/star.png";
 import styled from "styled-components";
 
@@ -10,7 +11,7 @@ const Footer = () => {
           <p>S T A R - Screen Time Awareness & Regulation © 2025 STARGAZERS Team. All rights reserved.</p>
         </div>
         <div className="footer-links">
-          <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Use</a>
+          <Link to="/privacy">Privacy Policy</Link> | <Link to="/terms">Terms of Use</Link>
         </div>
       </div>
     </Layout>
