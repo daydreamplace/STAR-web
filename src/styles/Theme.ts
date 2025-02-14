@@ -8,6 +8,8 @@ const Theme = {
     tertiary: "#7286b6",
     quaternary: "#2b2d33",
     textHover: "#a9b8d1",
+    purple: "#A237C6",
+    navy: "#293A77",
   },
   fontSizes: {
     small: "12px",
