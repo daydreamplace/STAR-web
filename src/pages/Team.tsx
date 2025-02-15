@@ -16,7 +16,7 @@ const Team = () => {
       <ul className="team-list">
         {sortedMembers.map((member) => (
           <li key={member.name}>
-            <a href={member.github} target="_blank" rel="noopener noreferrer">
+            <a href={member.github} target="_blank" rel="noopener noreferrer" className="star-text">
               {member.name}
             </a>
           </li>
@@ -24,14 +24,17 @@ const Team = () => {
       </ul>
       <div className="team-intro">
         <p>
-          비전과 열정이 있는 개발자 팀 <strong>Stargazers</strong>는 디지털 웰빙에 대한 깊은 관심과 기술적 전문성을
-          바탕으로 시작되었습니다.
+          비전과 열정이 있는 개발자 팀 <strong className="star-text">Stargazers</strong>는 디지털 웰빙에 대한 깊은
+          관심과 기술적 전문성을 바탕으로 시작되었습니다.
         </p>
         <div className="team-info">
           <p>
-            STAR 관련 문의는
+            <strong className="star-text">S T A R</strong> 관련 문의는
             <strong>
-              <a href="mailto:sambanghangyetang@gmail.com"> Stargazers</a>
+              <a href="mailto:sambanghangyetang@gmail.com" className="star-text">
+                {" "}
+                Stargazers
+              </a>
             </strong>
             로 연락하세요.
           </p>

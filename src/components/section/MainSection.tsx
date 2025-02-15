@@ -8,7 +8,9 @@ const MainSection = () => {
         <img src={logo} alt="logo" />
       </h1>
       <h2>Screen Time Awareness & Regulation</h2>
-      <h3>별을 이루는 당신의 시간, STAR와 함께 빛나세요.</h3>
+      <h3>
+        별을 이루는 당신의 시간, <strong className="star-text">S T A R</strong> 와 함께 빛나세요.
+      </h3>
     </Container>
   );
 };
