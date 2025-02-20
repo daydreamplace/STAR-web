@@ -91,6 +91,7 @@ const Container = styled.div`
   }
 
   .team-intro {
+    padding: 0 2rem;
     margin-bottom: 2rem;
     color: ${({ theme }) => theme.colors.text};
     font-size: 1.25rem;

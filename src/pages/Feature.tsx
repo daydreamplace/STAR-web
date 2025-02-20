@@ -8,10 +8,7 @@ const Feature = () => {
           <strong>Star - Your Digital Time Management Unit</strong>
           <ul>
             <li>Users can create and manage multiple Stars.</li>
-            <li>
-              A Star functions as a single session, having a name, a list of apps to block, active times, and designated
-              days of the week.
-            </li>
+            <li>A Star functions as a single session, having a name, a list of apps to block, active times, and designated days of the week.</li>
           </ul>
         </li>
         <li>
@@ -24,9 +21,7 @@ const Feature = () => {
         <li>
           <strong>Switch to Break Mode</strong>
           <ul>
-            <li>
-              Even while a Star is active, users can temporarily disable the Screen Time feature for up to 20 minutes.
-            </li>
+            <li>Even while a Star is active, users can temporarily disable the Screen Time feature for up to 20 minutes.</li>
             <li>A user-friendly flow encourages a balanced digital lifestyle.</li>
           </ul>
         </li>
@@ -46,46 +41,46 @@ const Container = styled.div`
 
   .features-list {
     list-style: none;
-    padding: 0 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
+    padding: 0 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: ${({ theme }) => theme.colors.text};
 
     li {
-      margin-bottom: 1.2rem;
+      margin-bottom: 1rem;
       position: relative;
-      padding-left: 1.5rem;
+      padding-left: 1.2rem;
 
       &::before {
         content: "★";
         position: absolute;
         left: 0;
         color: ${({ theme }) => theme.colors.tertiary};
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 1.2;
       }
 
       strong {
         color: ${({ theme }) => theme.colors.tertiary};
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: block;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.4rem;
       }
 
       ul {
         list-style: none;
-        padding-left: 1rem;
+        padding-left: 0.8rem;
 
         li {
           padding-left: 0;
-          font-size: 0.95rem;
-          margin-bottom: 0.5rem;
+          font-size: 0.85rem;
+          margin-bottom: 0.4rem;
           &::before {
             content: "-";
             position: absolute;
-            left: 1rem;
+            left: 0.8rem;
             color: ${({ theme }) => theme.colors.text};
-            font-size: 0.9rem;
+            font-size: 0.85rem;
           }
         }
       }
