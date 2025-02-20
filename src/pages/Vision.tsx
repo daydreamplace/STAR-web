@@ -27,21 +27,18 @@ const Container = styled.div`
   z-index: 0;
 
   .vision-content {
-    font-size: 1.25rem;
-    line-height: 1.8;
+    padding: 0 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
     color: ${({ theme }) => theme.colors.text};
 
     p {
       margin-bottom: 1rem;
     }
 
-    img {
-      height: 3rem;
-      vertical-align: middle;
-    }
-
     strong {
       color: ${({ theme }) => theme.colors.tertiary};
+      font-size: 1rem;
     }
   }
 `;
