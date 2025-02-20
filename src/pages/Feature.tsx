@@ -5,16 +5,30 @@ const Feature = () => {
     <Container>
       <ul className="features-list">
         <li>
-          <strong>스크린타임 데이터 통계 및 분석:</strong> 일일, 주간, 월간 사용 패턴 확인.
+          <strong>Star - Your Digital Time Management Unit</strong>
+          <ul>
+            <li>Users can create and manage multiple Stars.</li>
+            <li>
+              A Star functions as a single session, having a name, a list of apps to block, active times, and designated
+              days of the week.
+            </li>
+          </ul>
         </li>
         <li>
-          <strong>목표 기반 관리:</strong> 사용자 지정 목표와 경고 알림 기능.
+          <strong>Manage Stars</strong>
+          <ul>
+            <li>Users can view and add Stars from the Stars list.</li>
+            <li>Existing Stars can be selected to modify their settings.</li>
+          </ul>
         </li>
         <li>
-          <strong>별자리 언락 시스템:</strong> 성취를 통해 별자리 모으기.
-        </li>
-        <li>
-          <strong>디지털 웰빙 팁 제공:</strong> 생산적인 시간 활용을 위한 맞춤형 조언.
+          <strong>Switch to Break Mode</strong>
+          <ul>
+            <li>
+              Even while a Star is active, users can temporarily disable the Screen Time feature for up to 20 minutes.
+            </li>
+            <li>A user-friendly flow encourages a balanced digital lifestyle.</li>
+          </ul>
         </li>
       </ul>
     </Container>
@@ -32,13 +46,13 @@ const Container = styled.div`
 
   .features-list {
     list-style: none;
-    padding: 0;
-    font-size: 1.5rem;
-    line-height: 1.8;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
     color: ${({ theme }) => theme.colors.text};
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       position: relative;
       padding-left: 1.5rem;
 
@@ -47,12 +61,33 @@ const Container = styled.div`
         position: absolute;
         left: 0;
         color: ${({ theme }) => theme.colors.tertiary};
-        font-size: 1.2rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1.2;
       }
 
       strong {
         color: ${({ theme }) => theme.colors.tertiary};
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 1rem;
+
+        li {
+          padding-left: 0;
+          font-size: 0.95rem;
+          margin-bottom: 0.5rem;
+          &::before {
+            content: "-";
+            position: absolute;
+            left: 1rem;
+            color: ${({ theme }) => theme.colors.text};
+            font-size: 0.9rem;
+          }
+        }
       }
     }
   }
