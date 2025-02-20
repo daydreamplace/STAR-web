@@ -5,21 +5,21 @@ const Feature = () => {
     <Container>
       <ul className="features-list">
         <li>
-          <strong>Star - Your Digital Time Management Unit:</strong>
+          <strong>Star - Your Digital Time Management Unit</strong>
           <ul>
             <li>Users can create and manage multiple Stars.</li>
             <li>A Star functions as a single session, having a name, a list of apps to block, active times, and designated days of the week.</li>
           </ul>
         </li>
         <li>
-          <strong>Manage Stars:</strong>
+          <strong>Manage Stars</strong>
           <ul>
             <li>Users can view and add Stars from the Stars list.</li>
             <li>Existing Stars can be selected to modify their settings.</li>
           </ul>
         </li>
         <li>
-          <strong>Switch to Break Mode:</strong>
+          <strong>Switch to Break Mode</strong>
           <ul>
             <li>Even while a Star is active, users can temporarily disable the Screen Time feature for up to 20 minutes.</li>
             <li>A user-friendly flow encourages a balanced digital lifestyle.</li>
