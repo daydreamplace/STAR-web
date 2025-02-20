@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-logo-text">
           <img src={logo} alt="logo" />
-          <p>S T A R - Screen Time Awareness & Regulation © 2025 STARGAZERS Team. All rights reserved.</p>
+          <p>
+            <strong className="star-text">S T A R</strong> - Screen Time Awareness & Regulation © 2025 STARGAZERS Team.
+            All rights reserved.
+          </p>
         </div>
         <div className="footer-links">
           <Link to="/privacy">Privacy Policy</Link> | <Link to="/terms">Terms of Use</Link>

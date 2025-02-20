@@ -14,9 +14,15 @@ const Header = () => {
     <Layout>
       <img src={logo} alt="logo" onClick={goToHome} />
       <nav>
-        <NavLink to="/vision">V i s i o n</NavLink>
-        <NavLink to="/feature">F e a t u r e</NavLink>
-        <NavLink to="/team">T e a m</NavLink>
+        <NavLink to="/vision" className="star-text">
+          V i s i o n
+        </NavLink>
+        <NavLink to="/feature" className="star-text">
+          F e a t u r e
+        </NavLink>
+        <NavLink to="/team" className="star-text">
+          T e a m
+        </NavLink>
       </nav>
     </Layout>
   );
@@ -46,6 +52,7 @@ const Layout = styled.div`
     gap: 2rem;
 
     a {
+      margin-top: 0.5rem;
       color: ${({ theme }) => theme.colors.text};
       font-weight: 700;
 
